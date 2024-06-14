@@ -1,4 +1,4 @@
-export const CardComponent = (product) => {
+export const CardComponents = (product) => {
     const {
       image,
       title,
@@ -9,8 +9,8 @@ export const CardComponent = (product) => {
   <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
   <a href="#">
       <img class="p-8 rounded-t-lg h-[200px] w-auto object-cover" src="${
-        // image || "https://th.bing.com/th/id/OIP.6kk-4MZSSKhVF4M1Zv_NwwHaEK?w=294&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-           image || "../assets/OIP.jpg"
+        image || "https://th.bing.com/th/id/OIP.6kk-4MZSSKhVF4M1Zv_NwwHaEK?w=294&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+//image || "../assets/OIP.jpg"
       }" alt="product image" />
   </a>
   <div class="px-5 pb-5">
